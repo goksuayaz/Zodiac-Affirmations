@@ -8,21 +8,58 @@ const Taurus = () => {
   const content = {
     "Work&Money": [
 
+      "I am determined and capable of achieving financial abundance through my hard work and perseverance.",
 
+      "Opportunities for growth and success flow to me naturally, and I make the most of them.",
+
+      "My strong sense of discipline and practicality guide me toward wise financial decisions.",
+
+      "I attract stability and prosperity in my work and financial endeavors effortlessly.",
+
+      "My patience and persistence create lasting success and security in my career and finances."
 
     ],
 
     "Love": [
+
+      "I am deserving of love and open my heart to deep, meaningful connections.",
+
+      "Love flows to me effortlessly, and I radiate warmth and compassion in all my relationships.",
+
+      "I attract a partner who values and respects me as much as I value and respect myself.",
+
+      "My heart is filled with love, and I freely share it with the world around me.",
+
+      "Love strengthens and uplifts me, bringing joy and harmony into my life."
 
 
     ],
 
     "Health": [
 
+      "I prioritize my health and make choices that nourish my body and mind.",
+
+      "Every day, I grow stronger, healthier, and more vibrant.",
+
+      "I listen to my body and give it the rest and care it needs to thrive.",
+
+      "Positive energy flows through me, healing and rejuvenating every cell of my body.",
+
+      "I am grateful for my health and treat my body with love and respect."
+
     ],
 
     "Sprituality": [
 
+      "I am deeply connected to the universe, and it guides me toward peace and enlightenment.",
+
+      "My inner wisdom grows stronger every day, leading me to my highest self.",
+
+      "I trust the journey of my soul and embrace the lessons it brings with gratitude.",
+
+      "I align my mind, body, and spirit to create harmony and balance within.",
+
+      "I attract positive energy and divine love, which uplift and inspire my spirit."
 
     ]
   }
