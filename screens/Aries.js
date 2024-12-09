@@ -99,7 +99,7 @@ const Aries = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#dc2f02",
+    backgroundColor: "#ff1d15",
   },
 
   imagearea: {

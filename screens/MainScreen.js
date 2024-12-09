@@ -24,13 +24,13 @@ const MainScreen = ({ navigation }) => {
         <View style={styles.circleRow}>
           <TouchableOpacity onPress={() => navigation.navigate("ZodiacSecrets")}>
             <View style={styles.circle}>
-              <Text style={styles.circleText}>Zodiac Secrets</Text>
+              <Text style={styles.circleText}>New Moon</Text>
             </View>
           </TouchableOpacity>
 
           <TouchableOpacity onPress={() => navigation.navigate("ZodiacMatches")}>
             <View style={styles.circle}>
-              <Text style={styles.circleText}>Zodiac Matches</Text>
+              <Text style={styles.circleText}>Full Moon</Text>
             </View>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => navigation.navigate("PlanetMysteries")}>
@@ -113,6 +113,42 @@ const MainScreen = ({ navigation }) => {
             <Text style={styles.text}>Virgo</Text>
           </View>
 
+
+          {/* Libre */}
+          <View style={styles.imageBox}>
+            <TouchableOpacity onPress={() => navigation.navigate("Libre")}>
+              <Image
+                style={styles.image}
+                source={require("../assets/visuals/libra.jpg")}
+              />
+            </TouchableOpacity>
+            <Text style={styles.text}>Libre</Text>
+          </View>
+
+
+          {/* Scorpio */}
+          <View style={styles.imageBox}>
+            <TouchableOpacity onPress={() => navigation.navigate("Scorpio")}>
+              <Image
+                style={styles.image}
+                source={require("../assets/visuals/scorpion.jpg")}
+              />
+            </TouchableOpacity>
+            <Text style={styles.text}>Scorpio</Text>
+          </View>
+
+
+          {/* Sagittarius */}
+          <View style={styles.imageBox}>
+            <TouchableOpacity onPress={() => navigation.navigate("Sagittarius")}>
+              <Image
+                style={styles.image}
+                source={require("../assets/visuals/sagit.jpg")}
+              />
+            </TouchableOpacity>
+            <Text style={styles.text}>Sagittarius</Text>
+          </View>
+
         </View>
       </View>
     </View>
@@ -131,16 +167,16 @@ const styles = StyleSheet.create({
 
   welcomeText: {
     color: "#fff",
-    marginTop: 120,
-    marginLeft: 8,
+    marginTop: 60,
+    marginLeft: 4,
     fontSize: 25,
     fontWeight: "bold",
   },
 
   affirmation: {
     color: "#fff",
-    marginTop: 10,
-    marginLeft: 12,
+    marginTop: 20,
+    marginLeft: 8,
     fontSize: 18,
     opacity: 0.5,
 
@@ -173,47 +209,52 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     fontSize: 14,
     fontWeight: "bold",
-    padding: 15,
-    backgroundColor: "#85C1E980",
-
-
+    padding: 20,
+    backgroundColor: "#fcefb4",
 
   },
-
-
-
 
 
   signs: {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    marginBottom: 70,
+    marginBottom: 20,
 
   },
+
+
   imageGrid: {
+
     flexDirection: "row",
     flexWrap: "wrap",
     justifyContent: "center",
     gap: 3,
+    marginTop: 10,
   },
   imageBox: {
     alignItems: "center",
     margin: 10,
   },
+
+
   image: {
     width: 100,
     height: 100,
     borderRadius: 16,
   },
+
+
   text: {
     color: "#fff",
     marginTop: 5,
     fontSize: 14,
   },
+
+
   select: {
     color: "#fff",
-    marginBottom: 20,
+    marginTop: 20,
     marginRight: 210,
     fontSize: 20,
   },
