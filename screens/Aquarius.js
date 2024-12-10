@@ -104,7 +104,7 @@ const Aquarius = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: "#ff1d15",
+        backgroundColor: "#12d3ba",
     },
 
     imagearea: {
