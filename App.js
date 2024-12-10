@@ -10,9 +10,11 @@ import Virgo from './screens/Virgo';
 import Libre from './screens/Libre';
 import Scorpio from './screens/Scorpio';
 import Sagittarius from './screens/Sagittarius';
+import Capricorn from './screens/Capricorn';
 import ZodiacSecrets from './screens/ZodiacSecrets';
 import ZodiacMatches from './screens/ZodiacMatches';
 import PlanetMysteries from './screens/PlanetMysteries';
+
 
 
 const Stack = createStackNavigator();
@@ -34,6 +36,8 @@ export default function App() {
         <Stack.Screen options={{ headerShown: false }} name="Libre" component={Libre} />
         <Stack.Screen options={{ headerShown: false }} name="Scorpio" component={Scorpio} />
         <Stack.Screen options={{ headerShown: false }} name="Sagittarius" component={Sagittarius} />
+        <Stack.Screen options={{ headerShown: false }} name="Capricorn" component={Capricorn} />
+
         <Stack.Screen options={{ headerShown: false }} name="ZodiacSecrets" component={ZodiacSecrets} />
         <Stack.Screen options={{ headerShown: false }} name="ZodiacMatches" component={ZodiacMatches} />
         <Stack.Screen options={{ headerShown: false }} name="PlanetMysteries" component={PlanetMysteries} />
