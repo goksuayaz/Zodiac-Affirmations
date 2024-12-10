@@ -12,6 +12,7 @@ import Scorpio from './screens/Scorpio';
 import Sagittarius from './screens/Sagittarius';
 import Capricorn from './screens/Capricorn';
 import Aquarius from './screens/Aquarius';
+import Pisces from './screens/Pisces';
 import ZodiacSecrets from './screens/ZodiacSecrets';
 import ZodiacMatches from './screens/ZodiacMatches';
 import PlanetMysteries from './screens/PlanetMysteries';
@@ -39,7 +40,7 @@ export default function App() {
         <Stack.Screen options={{ headerShown: false }} name="Sagittarius" component={Sagittarius} />
         <Stack.Screen options={{ headerShown: false }} name="Capricorn" component={Capricorn} />
         <Stack.Screen options={{ headerShown: false }} name="Aquarius" component={Aquarius} />
-
+        <Stack.Screen options={{ headerShown: false }} name="Pisces" component={Pisces} />
         <Stack.Screen options={{ headerShown: false }} name="ZodiacSecrets" component={ZodiacSecrets} />
         <Stack.Screen options={{ headerShown: false }} name="ZodiacMatches" component={ZodiacMatches} />
         <Stack.Screen options={{ headerShown: false }} name="PlanetMysteries" component={PlanetMysteries} />
