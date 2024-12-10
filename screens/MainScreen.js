@@ -160,6 +160,18 @@ const MainScreen = ({ navigation }) => {
             <Text style={styles.text}>Capricorn</Text>
           </View>
 
+
+          {/* Aquarius */}
+          <View style={styles.imageBox}>
+            <TouchableOpacity onPress={() => navigation.navigate("Aquarius")}>
+              <Image
+                style={styles.image}
+                source={require("../assets/visuals/aquarius.jpg")}
+              />
+            </TouchableOpacity>
+            <Text style={styles.text}>Aquarius</Text>
+          </View>
+
         </View>
       </View>
     </View>
