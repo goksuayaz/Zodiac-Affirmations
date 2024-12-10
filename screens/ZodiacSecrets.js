@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, ScrollView } from "react-native";
 
 const ZodiacSecrets = () => {
     return (
-        <ScrollView style={styles.scroll}>
+        <ScrollView showsVerticalScrollIndicator={false} style={styles.scroll}>
             <View style={styles.container}>
                 <Text style={styles.headerText}>What is a New Moon and What Does It Mean?</Text>
 
@@ -53,6 +53,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 10,
+        minHeight: "100%",
     },
 
 

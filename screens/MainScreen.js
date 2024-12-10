@@ -14,7 +14,7 @@ const Stack = createStackNavigator();
 const MainScreen = ({ navigation }) => {
   return (
 
-    <ScrollView>
+    <ScrollView showsVerticalScrollIndicator={false}>
 
       <View style={styles.container}>
 
@@ -201,6 +201,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#001c55",
 
+
   },
 
   welcomeText: {
@@ -244,7 +245,6 @@ const styles = StyleSheet.create({
     width: 80,
     height: 80,
     borderRadius: 50,
-    backgroundColor: "#fff",
     fontSize: 14,
     fontWeight: "bold",
     padding: 20,
