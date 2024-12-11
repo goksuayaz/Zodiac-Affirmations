@@ -23,22 +23,26 @@ const MainScreen = ({ navigation }) => {
           <Text style={styles.affirmation}> Discover personalized affirmations tailored to your zodiac sign! </Text>
         </View>
 
+
         <View style={styles.infos}>
           <View style={styles.circleRow}>
-            <TouchableOpacity onPress={() => navigation.navigate("ZodiacSecrets")}>
+            <TouchableOpacity onPress={() => navigation.navigate("NewMoon")}>
               <View style={styles.circle}>
                 <Text style={styles.circleText}>New Moon</Text>
               </View>
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => navigation.navigate("ZodiacMatches")}>
+
+            <TouchableOpacity onPress={() => navigation.navigate("FullMoon")}>
               <View style={styles.circle}>
                 <Text style={styles.circleText}>Full Moon</Text>
               </View>
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => navigation.navigate("PlanetMysteries")}>
+
+
+            <TouchableOpacity onPress={() => navigation.navigate("SolarEclipse")}>
               <View style={styles.circle}>
-                <Text style={styles.circleText}>Planet Mysteries</Text>
+                <Text style={styles.circleText}>Solar Eclipse</Text>
               </View>
             </TouchableOpacity>
 
@@ -47,9 +51,11 @@ const MainScreen = ({ navigation }) => {
 
         </View>
 
+
         <View style={styles.signs}>
           <Text style={styles.select}> Select Your Sign </Text>
           <View style={styles.imageGrid}>
+
             {/* Aries */}
             <View style={styles.imageBox}>
               <TouchableOpacity onPress={() => navigation.navigate("Aries")}>
@@ -228,27 +234,36 @@ const styles = StyleSheet.create({
     alignItems: "center",
     width: 300,
     height: 50,
-    marginTop: 60,
+    marginTop: 50,
 
 
   },
   circleRow: {
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "center",
     alignItems: "center",
     gap: 30,
     marginTop: 10,
   },
 
+  circleText: {
+    fontSize: 14,
+    color: "#001c55",
+    fontWeight: "bold",
+    textAlign: "center",
+
+
+  },
+
 
   circle: {
-    width: 80,
-    height: 80,
+    width: 90,
+    height: 90,
     borderRadius: 50,
-    fontSize: 14,
-    fontWeight: "bold",
-    padding: 20,
+    padding: 7,
     backgroundColor: "#fcefb4",
+    justifyContent: "center",
+    alignItems: "center"
 
   },
 

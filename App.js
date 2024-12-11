@@ -13,9 +13,9 @@ import Sagittarius from './screens/Sagittarius';
 import Capricorn from './screens/Capricorn';
 import Aquarius from './screens/Aquarius';
 import Pisces from './screens/Pisces';
-import ZodiacSecrets from './screens/ZodiacSecrets';
-import ZodiacMatches from './screens/ZodiacMatches';
-import PlanetMysteries from './screens/PlanetMysteries';
+import NewMoon from './screens/NewMoon';
+import FullMoon from './screens/FullMoon';
+import SolarEclipse from './screens/SolarEclipse';
 
 
 
@@ -41,9 +41,9 @@ export default function App() {
         <Stack.Screen options={{ headerShown: false }} name="Capricorn" component={Capricorn} />
         <Stack.Screen options={{ headerShown: false }} name="Aquarius" component={Aquarius} />
         <Stack.Screen options={{ headerShown: false }} name="Pisces" component={Pisces} />
-        <Stack.Screen options={{ headerShown: false }} name="ZodiacSecrets" component={ZodiacSecrets} />
-        <Stack.Screen options={{ headerShown: false }} name="ZodiacMatches" component={ZodiacMatches} />
-        <Stack.Screen options={{ headerShown: false }} name="PlanetMysteries" component={PlanetMysteries} />
+        <Stack.Screen options={{ headerShown: false }} name="NewMoon" component={NewMoon} />
+        <Stack.Screen options={{ headerShown: false }} name="FullMoon" component={FullMoon} />
+        <Stack.Screen options={{ headerShown: false }} name="SolarEclipse" component={SolarEclipse} />
       </Stack.Navigator>
     </NavigationContainer>
   );
