@@ -193,9 +193,9 @@ const styles = StyleSheet.create({
 
     affirmation: {
         fontSize: 16,
-        lineHeight: 22,
+        lineHeight: 30,
         textAlign: "center",
-        color: "#000",
+        color: "#fff",
     },
 });
 

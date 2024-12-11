@@ -185,11 +185,11 @@ const styles = StyleSheet.create({
 
 
   affirmation: {
-    fontSize: 16,
-    lineHeight: 22,
+    fontSize: 17,
+    lineHeight: 30,
     textAlign: "center",
     color: "#fff",
-  }
+  },
 })
 
 export default Taurus;

@@ -7,7 +7,7 @@ const NewMoon = () => {
         <ScrollView showsVerticalScrollIndicator={false} style={styles.scroll}>
 
             <View style={styles.container}>
-                <Text style={styles.headerText}>New Moon</Text>
+                <Text style={styles.headerText}> 🌛 New Moon 🌛  </Text>
 
                 <View style={styles.top}>
                     <View style={styles.contentBox}>
@@ -24,13 +24,15 @@ const NewMoon = () => {
                         </Text>
 
                         <Text style={styles.text}>
-                            Starting new projects
-                            Setting goals for personal growth
-                            Letting go of old habits
-                            Building new relationships or renewing existing ones
+                            Starting new projects </Text>
+                        <Text style={styles.text}>
+                            Setting goals for personal growth </Text>
+                        <Text style={styles.text}>
+                            Letting go of old habits </Text>
+                        <Text style={styles.text}>
+                            Building new relationships or renewing existing ones </Text>
+                        <Text style={styles.text}>
                             Spiritual cleansing and intention-setting practices
-
-
                         </Text>
                     </View>
 
@@ -42,9 +44,12 @@ const NewMoon = () => {
                         </Text>
 
                         <Text style={styles.text}>
-                            Fire signs (Aries, Leo, Sagittarius) experience increased creativity and courage.
-                            Earth signs (Taurus, Virgo, Capricorn) focus on practical planning.
-                            Air signs (Gemini, Libra, Aquarius) prioritize new ideas and social connections.
+                            Fire signs (Aries, Leo, Sagittarius) experience increased creativity and courage. </Text>
+                        <Text style={styles.text}>
+                            Earth signs (Taurus, Virgo, Capricorn) focus on practical planning. </Text>
+                        <Text style={styles.text}>
+                            Air signs (Gemini, Libra, Aquarius) prioritize new ideas and social connections. </Text>
+                        <Text style={styles.text}>
                             Water signs (Cancer, Scorpio, Pisces) enhance emotional healing and intuitive power.
                         </Text>
                     </View>
@@ -55,9 +60,12 @@ const NewMoon = () => {
                         </Text>
 
                         <Text style={styles.text}>
-                            Meditation and intention-setting: Write down your dreams and focus your energy on achieving them.
-                            Starting new projects: It's a great time to take steps in work, education, or personal life.
-                            Energy cleansing: Use incense or similar methods to cleanse your home or yourself of negative energies.
+                            Meditation and intention-setting: Write down your dreams and focus your energy on achieving them.   </Text>
+                        <Text style={styles.text}>
+                            Starting new projects: It's a great time to take steps in work, education, or personal life.</Text>
+                        <Text style={styles.text}>
+                            Energy cleansing: Use incense or similar methods to cleanse your home or yourself of negative energies.</Text>
+                        <Text style={styles.text}>
                             Journaling: Reflect on your thoughts and emotions to gain a clearer perspective.
                         </Text>
                     </View>
@@ -101,7 +109,7 @@ const styles = StyleSheet.create({
 
 
     headerText: {
-        fontSize: 20,
+        fontSize: 25,
         fontWeight: "bold",
         marginTop: 40,
         textAlign: "center",

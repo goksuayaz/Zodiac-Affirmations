@@ -6,7 +6,7 @@ const FullMoon = () => {
     return (
         <ScrollView showsVerticalScrollIndicator={false} style={styles.scroll}>
             <View style={styles.container}>
-                <Text style={styles.headerText}>Full Moon</Text>
+                <Text style={styles.headerText}> 🌝 Full Moon 🌝</Text>
 
 
                 <View style={styles.top}>
@@ -22,12 +22,15 @@ const FullMoon = () => {
                         </Text>
 
                         <Text style={styles.text}>
-                            Culmination and achieving results
-                            Emotional awareness and confrontations
-                            Letting go of old habits and connections
-                            Releasing energy and cleansing
-                            Inner transformation and emotional healing
-                        </Text>
+                            Culmination and achieving results </Text>
+                        <Text style={styles.text}>
+                            Emotional awareness and confrontations </Text>
+                        <Text style={styles.text}>
+                            Letting go of old habits and connections </Text>
+                        <Text style={styles.text}>
+                            Releasing energy and cleansing </Text>
+                        <Text style={styles.text}>
+                            Inner transformation and emotional healing </Text>
                     </View>
 
 
@@ -37,11 +40,13 @@ const FullMoon = () => {
                         </Text>
 
                         <Text style={styles.text}>
-                            Fire signs (Aries, Leo, Sagittarius) may feel energized and ready to take decisive actions.
-                            Earth signs (Taurus, Virgo, Capricorn) focus on achieving practical results or gaining clarity in material matters.
-                            Air signs (Gemini, Libra, Aquarius) experience intense social or mental awareness.
-                            Water signs (Cancer, Scorpio, Pisces) undergo deep emotional cleansing and intuitive clarity.
-                        </Text>
+                            Fire signs (Aries, Leo, Sagittarius) may feel energized and ready to take decisive actions. </Text>
+                        <Text style={styles.text}>
+                            Earth signs (Taurus, Virgo, Capricorn) focus on achieving practical results or gaining clarity in material matters. </Text>
+                        <Text style={styles.text}>
+                            Air signs (Gemini, Libra, Aquarius) experience intense social or mental awareness. </Text>
+                        <Text style={styles.text}>
+                            Water signs (Cancer, Scorpio, Pisces) undergo deep emotional cleansing and intuitive clarity. </Text>
                     </View>
 
 
@@ -52,11 +57,13 @@ const FullMoon = () => {
                         </Text>
 
                         <Text style={styles.text}>
-                            Release rituals: Write down habits or emotional burdens you wish to let go of and symbolically release them.
-                            Meditation and gratitude practices: Reflect on completed cycles in your life and open space for new opportunities.
-                            Emotional cleansing: Engage in activities that allow emotional release, such as journaling or creative projects.
-                            Moonlit walks: Connect with nature and embrace the energy of the full moon.
-                        </Text>
+                            Release rituals: Write down habits or emotional burdens you wish to let go of and symbolically release them. </Text>
+                        <Text style={styles.text}>
+                            Meditation and gratitude practices: Reflect on completed cycles in your life and open space for new opportunities. </Text>
+                        <Text style={styles.text}>
+                            Emotional cleansing: Engage in activities that allow emotional release, such as journaling or creative projects. </Text>
+                        <Text style={styles.text}>
+                            Moonlit walks: Connect with nature and embrace the energy of the full moon. </Text>
                     </View>
                 </View >
             </View>
@@ -101,7 +108,7 @@ const styles = StyleSheet.create({
 
 
     headerText: {
-        fontSize: 20,
+        fontSize: 25,
         fontWeight: "bold",
         marginTop: 40,
         textAlign: "center",

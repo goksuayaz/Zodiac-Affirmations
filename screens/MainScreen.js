@@ -11,6 +11,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 const Stack = createStackNavigator();
 
+
 const MainScreen = ({ navigation }) => {
   return (
 
@@ -212,7 +213,7 @@ const styles = StyleSheet.create({
 
   welcomeText: {
     color: "#fff",
-    marginTop: 60,
+    marginTop: 80,
     marginLeft: 4,
     fontSize: 25,
     fontWeight: "bold",
