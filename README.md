@@ -7,4 +7,3 @@
 ![aqrss](https://github.com/user-attachments/assets/30505151-813e-4ace-8b90-6d2819d56da9)
 
 
-![sscr](https://github.com/user-attachments/assets/f82fe760-f5db-4f6f-a745-1c3eb82a468b)
