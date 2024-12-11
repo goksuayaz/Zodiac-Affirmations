@@ -4,6 +4,5 @@
 
 ![ssar](https://github.com/user-attachments/assets/a6070f89-3c7c-4012-8df1-b0533a1fa77d)
 
-![aqrss](https://github.com/user-attachments/assets/30505151-813e-4ace-8b90-6d2819d56da9)
 
 
