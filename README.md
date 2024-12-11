@@ -4,6 +4,7 @@
 
 ![ssar](https://github.com/user-attachments/assets/a6070f89-3c7c-4012-8df1-b0533a1fa77d)
 
-![Screenshot_1733924784](https://github.com/user-attachments/assets/0d539c3a-8972-4ccd-96db-3ba08dfab971)
+![aqrss](https://github.com/user-attachments/assets/30505151-813e-4ace-8b90-6d2819d56da9)
+
 
 ![sscr](https://github.com/user-attachments/assets/f82fe760-f5db-4f6f-a745-1c3eb82a468b)
